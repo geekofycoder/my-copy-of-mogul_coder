@@ -6,10 +6,10 @@ int main()
 {
     int number, guess, guessno = 1;
     srand(time(0));
-    number = rand() % 100 + 1;
+    number = rand() % 100 + 1;//prints the random number...
     // printf("%d\n", number);
 
-    do
+    do//loop which performs continuous feedback!
     {
         printf("Enter a Guess:\n");
         scanf("%d", &guess);
@@ -26,7 +26,7 @@ int main()
             printf("Correct guess!and you did it in %d attempts!", guessno);
         }
         guessno++;
-    } while (guess != number);
+    } while (guess != number);//condition 
 
     return 0;
 }
