@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main()
-{
+{ //variable initialization
     int number, guess, guessno = 1;
     srand(time(0));
     number = rand() % 100 + 1;//prints the random number...
@@ -30,3 +30,7 @@ int main()
 
     return 0;
 }
+
+//program ends here
+
+//ravi shashtri
